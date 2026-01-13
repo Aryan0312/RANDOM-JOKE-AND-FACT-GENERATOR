@@ -1,35 +1,6 @@
 let url;
 let timeoutId = null; 
 
-// fetch(url,{
-//     headers:{
-//         "Accept":"application/json"
-//     }
-// })
-// .then((response)=>
-// {
-//     console.log(response);
-//     return response.json();
-// })
-// .then((data)=>{
-//    console.log(data.joke);
-//    return fetch(url,{
-//     headers:{
-//         "Accept":"application/json"
-//     }
-// });
-   
-// })
-// .then((res)=>{
-//     return res.json();
-// })
-// .then((data2)=>{
-//     console.log(data2.joke);
-    
-// })
-// .catch((err)=>{
-//     console.log(err);
-// })
 let btn = document.querySelector("button");
 let dropdown = document.querySelector("#dropdown");
 
@@ -43,25 +14,6 @@ document.addEventListener("keydown", (event) => {
     }
 });
 
-
-// function jokeInEvery(time,count){
-    
-//     let c =0
-    
-//         let intervalid= setInterval(async() => {
-        
-//         if(c==count){
-//             clearInterval(intervalid);
-//             return;
-//         }
-//         let jokeData = await getJoke();
-//         if(jokeData){
-//             console.log(jokeData.joke);
-//         }
-//         c++;
-//     }, time*1000);
-
-//     }
 
 function joketextcall(){
     btn.disabled = true;
