@@ -25,7 +25,7 @@ app.use((err, req, res, next) => {
 	res.status(statusCode).render("error.ejs", { message });
 });
 
-app.all("/*wildcard", (req, res, next) => {
+app.all("/jokes/*wildcard", (req, res, next) => {
 	next(new ExpressError(404, "Page Not Found!"));
 });
 
