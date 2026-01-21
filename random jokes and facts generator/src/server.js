@@ -12,7 +12,11 @@ const __dirname = path.dirname(__filename);
 
 app.set("view engine", "ejs");
 app.set("views", "../src/views");
-app.use(express.static(path.join(__dirname, "public")));
+
+
+const publicPath = path.join(__dirname, "public");
+app.use("/jokes", express.static(publicPath));
+
 
 app.get("/jokes",wrapAsync(async(req,res)=>{
     res.render("index.ejs")
