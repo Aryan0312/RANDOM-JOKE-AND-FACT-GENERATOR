@@ -9,50 +9,31 @@ https://get-random-by-aryan.netlify.app/
 🚀 Features
 
 Generates random data using APIs
-
 Simple and clean user interface
-
 Demonstrates API fetching using JavaScript
-
 Fully deployed using Netlify
 
 🧠 What I Learned
 
 Through this project, I practiced:
-
 How APIs work
-
 Making HTTP requests
-
 Using JavaScript fetch()
-
 Handling API responses
-
 Updating the DOM dynamically
-
 Deploying a project using Netlify
 
 🛠️ Tech Stack
 
 HTML
-
 CSS
-
 JavaScript
-
 Public APIs
-
 Netlify (Deployment)
 
 ⚙️ How It Works
 
 User clicks the Generate button
-
 JavaScript sends a request to an API
-
 The API returns random data
-
 The webpage updates dynamically
-
-
-live demo of project- https://get-random-by-aryan.netlify.app/
